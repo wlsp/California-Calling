@@ -329,7 +329,7 @@ footer .banderolle {
   height: 13vh;
   background-color: #fff;
   color: #000;
-  transform: translateY(570%) translateX(10%) rotate(45deg);
+  transform: translateY(500%) translateX(0) rotate(45deg);
 }
 footer h5 {
   animation: 4s linear 0s infinite alternate move;
