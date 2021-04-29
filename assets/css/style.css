@@ -1,0 +1,353 @@
+/*
+font-family: 'Work Sans', sans-serif;
+font-family: LarishNeu;
+*/
+@font-face {
+  font-family: LarishNeu;
+  src: url(../font/LarishNeueSemibold.woff);
+}
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Page Setting */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+footer p:nth-of-type(1) {
+  font-family: LarishNeu;
+}
+
+h6,
+h3,
+p,
+span:not(h1 > span, footer h5 span) {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+button {
+  height: 3.5em;
+  width: 8em;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  border: 1px solid #fff;
+  transition: all ease 0.8s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* HERO */
+#hero {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+#hero h1 > .stroked {
+  color: #000;
+  -webkit-text-stroke: 1px #fff;
+}
+#hero svg:first-of-type {
+  width: fit-content;
+  height: 30%;
+  margin-left: 21%;
+}
+#hero article {
+  margin-top: 2%;
+}
+#hero h1 {
+  font-size: 6em;
+  line-height: 1em;
+  margin: 2%;
+}
+#hero aside {
+  display: flex;
+  margin-top: 8%;
+}
+#hero aside img {
+  width: 5%;
+  margin-left: 10%;
+}
+#hero button {
+  margin-left: 65%;
+  margin-top: -2%;
+}
+
+/* Facts */
+#facts {
+  height: 200vh;
+  background-color: #000;
+  color: #fff;
+  padding: 20% 0 0 10%;
+}
+#facts h2,
+h2 {
+  font-size: 6.3em;
+  width: 90%;
+  line-height: 1em;
+  padding-top: 2%;
+}
+#facts article {
+  padding-top: 10%;
+  height: 75vh;
+  background-image: url(../img/map.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Gallery */
+#gallery {
+  text-align: center;
+  height: 300vh;
+  position: relative;
+}
+#gallery article {
+  margin: 0 auto;
+  width: 43%;
+  padding: 25% 0 0 15%;
+  text-align: left;
+}
+#gallery .firstp {
+  font-size: 1.1em;
+  padding: 2% 0;
+  width: 70%;
+  line-height: 1.8em;
+}
+#gallery .secondp {
+  text-align: left;
+  margin-top: 53%;
+  margin-left: 35%;
+  font-size: 1.1em;
+  width: 33%;
+  line-height: 1.8em;
+}
+#gallery img {
+  position: absolute;
+  width: 20%;
+}
+#gallery img:nth-of-type(1) {
+  position: absolute;
+  top: -5%;
+  right: 10%;
+}
+#gallery img:nth-of-type(2) {
+  position: absolute;
+  width: 20%;
+  top: 15%;
+  left: 5%;
+}
+#gallery img:nth-of-type(3) {
+  position: absolute;
+  width: 20%;
+  top: 35%;
+  right: 0;
+}
+#gallery img:nth-of-type(4) {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+}
+#gallery img:nth-of-type(5) {
+  position: absolute;
+  top: 55%;
+  right: 10%;
+}
+#gallery img:nth-of-type(6) {
+  position: absolute;
+  width: 20%;
+  top: 73%;
+  left: 0%;
+}
+#gallery img:nth-of-type(7) {
+  position: absolute;
+  width: 30%;
+  top: 89%;
+  left: 40%;
+  z-index: 1;
+}
+
+/* Golden B E A R S */
+
+#goldenBears {
+  position: relative;
+  height: 185vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: wrap;
+  z-index: 0;
+}
+#goldenBears aside:nth-of-type(1) {
+  margin: 15% -2% 15% 10%;
+  width: 40%;
+}
+#goldenBears aside:nth-of-type(2) {
+  margin-top: 18%;
+  width: 39%;
+}
+#goldenBears aside p {
+  font-family: LarishNeu;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  padding-bottom: 5%;
+}
+#goldenBears img:nth-of-type(1) {
+  position: absolute;
+  z-index: 1;
+  width: 55vw;
+  top: 55%;
+  left: 13%;
+}
+#goldenBears img:nth-of-type(2) {
+  position: absolute;
+  width: 30vw;
+  z-index: 5;
+  top: 62%;
+  right: 10%;
+}
+
+/* Poppy  B E A R */
+#poppyBear {
+  height: 235vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: -8;
+}
+.animationWrapper {
+  text-align: right;
+  position: relative;
+  top: -6.5%;
+  right: -9.3%;
+  z-index: -5;
+  width: 100%;
+}
+.rotate {
+  animation: rotate;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 30%;
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+#poppyBear img:not(.rotate) {
+  position: absolute;
+}
+#poppyBear aside:nth-of-type(1) {
+  margin: -45% 0 0 10%;
+  width: 40%;
+}
+#poppyBear aside:nth-of-type(2) {
+  margin-top: -42%;
+  width: 39%;
+}
+#poppyBear aside p {
+  font-family: LarishNeu;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  padding-bottom: 5%;
+}
+#poppyBear .rosebear {
+  top: 50%;
+  left: 40%;
+  width: 50%;
+}
+#poppyBear .pb3 {
+  top: 58%;
+  left: 19%;
+  width: 27%;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  display: flex;
+  flex-wrap: column;
+  background-color: #000;
+  height: 110vh;
+  color: #fff;
+  z-index: -9;
+  overflow: hidden;
+}
+
+footer aside:nth-of-type(1) {
+  padding: 10% 0 0 10%;
+}
+footer p:nth-of-type(1) {
+  width: 45%;
+  font-size: 1.9em;
+  padding: 2% 0;
+}
+footer .firstUl {
+  margin: 10% 0;
+}
+footer ul li {
+  padding-right: 1%;
+  display: inline;
+  list-style-type: none;
+}
+footer li a img {
+  width: 2.5%;
+}
+footer ul h6 {
+  font-size: 1em;
+  padding-top: 2%;
+}
+footer figure {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+figure img {
+  width: 30%;
+}
+
+footer .banderolle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 5.4em;
+  width: 160%;
+  height: 13vh;
+  background-color: #fff;
+  color: #000;
+  transform: translateY(570%) translateX(10%) rotate(45deg);
+}
+footer h5 {
+  animation: 4s linear 0s infinite alternate move;
+  text-align: right;
+}
+
+footer h5 span {
+  font-family: LarishNeu;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  text-align: right;
+}
+
+@keyframes move {
+  from {
+    transform: translate3d(0%, 0%, 0px);
+  }
+  to {
+    transform: translate3d(-30%, 0%, 50px);
+  }
+}
