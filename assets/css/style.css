@@ -295,27 +295,35 @@ footer p:nth-of-type(1) {
   padding: 2% 0;
 }
 footer .firstUl {
-  margin: 10% 0;
+  margin: 7% 0;
 }
+
 footer ul li {
   padding-right: 1%;
   display: inline;
   list-style-type: none;
 }
+
 footer li a img {
   width: 2.5%;
 }
+
 footer ul h6 {
   font-size: 1em;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 footer figure {
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 75%;
 }
+
 figure img {
   width: 30%;
+}
+
+footer h6 {
+  line-height: 2em;
 }
 
 footer .banderolle {
@@ -331,6 +339,7 @@ footer .banderolle {
   color: #000;
   transform: translateY(500%) translateX(0) rotate(45deg);
 }
+
 footer h5 {
   animation: 4s linear 0s infinite alternate move;
   text-align: right;
