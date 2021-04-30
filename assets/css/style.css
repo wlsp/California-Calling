@@ -106,7 +106,7 @@ h2 {
 /* Gallery */
 #gallery {
   text-align: center;
-  height: 300vh;
+  height: 230vh;
   position: relative;
 }
 #gallery article {
@@ -123,7 +123,7 @@ h2 {
 }
 #gallery .secondp {
   text-align: left;
-  margin-top: 53%;
+  margin-top: 43%;
   margin-left: 35%;
   font-size: 1.1em;
   width: 33%;
@@ -169,7 +169,7 @@ h2 {
 #gallery img:nth-of-type(7) {
   position: absolute;
   width: 30%;
-  top: 89%;
+  top: 92%;
   left: 40%;
   z-index: 1;
 }
@@ -202,15 +202,15 @@ h2 {
 #goldenBears img:nth-of-type(1) {
   position: absolute;
   z-index: 1;
-  width: 55vw;
-  top: 55%;
+  width: 53vw;
+  top: 58%;
   left: 13%;
 }
 #goldenBears img:nth-of-type(2) {
   position: absolute;
   width: 30vw;
   z-index: 5;
-  top: 62%;
+  top: 65%;
   right: 10%;
 }
 
@@ -221,7 +221,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  z-index: -8;
+ 
 }
 .animationWrapper {
   text-align: right;
@@ -282,7 +282,6 @@ footer {
   background-color: #000;
   height: 110vh;
   color: #fff;
-  z-index: -9;
   overflow: hidden;
 }
 
@@ -360,3 +359,165 @@ footer h5 span {
     transform: translate3d(-30%, 0%, 50px);
   }
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) { 
+
+  h6,
+h3,
+p,
+span:not(h1 > span, footer h5 span) {
+  font-family: "Work Sans", sans-serif;
+  font-size: .85em;
+  font-weight: 400;
+}
+
+
+/* HERO */
+#hero {
+  height: 60vh;
+  background-color: #000;
+  color: #fff;
+}
+
+#hero svg:first-of-type {
+  display: none;
+}
+#hero article {
+  padding-top: 5%;
+  margin: 0;
+  line-height: 4em;
+}
+#hero h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 2%;
+}
+#hero aside {
+  display: flex;
+  margin-top: 8%;
+}
+#hero aside img {
+  width: 15%;
+  margin-left: 10%;
+}
+#hero button {
+  margin-left: 40%;
+  margin-top: -2%;
+  height: 3em;
+  width: 6em;
+  font-size: 1em;
+}
+
+/* Facts */
+
+#facts {
+  height: 90vh;
+}
+#facts h2,
+h2 {
+  font-size: 2em;
+  width: 90%;
+  line-height: 1em;
+  padding-top: 2%;
+}
+#facts article {
+  height: 40vh;
+  background-image: url(../img/map.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* Gallery */
+#gallery {
+  text-align: center;
+  height: 150vh;
+  position: relative;
+}
+#gallery article {
+  margin: 0 auto;
+  width: 100%;
+  padding: 25% 0 0 5%;
+}
+#gallery .firstp {
+  font-size: 1.1em;
+  padding: 2% 0;
+  width:90%;
+  line-height: 1.8em;
+}
+#gallery .secondp {
+  text-align: left;
+  margin-top: 53%;
+  margin-left: 35%;
+  font-size: 1.1em;
+  width: 33%;
+  line-height: 1.8em;
+}
+#gallery img {
+  position: absolute;
+  width: 20%;
+}
+#gallery img:nth-of-type(1) {
+  position: absolute;
+  top: -5%;
+  right: 10%;
+}
+#gallery img:nth-of-type(2) {
+  position: absolute;
+  width: 20%;
+  top: 15%;
+  left: 5%;
+}
+#gallery img:nth-of-type(3) {
+  position: absolute;
+  width: 20%;
+  top: 35%;
+  right: 0;
+}
+#gallery img:nth-of-type(4) {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+}
+#gallery img:nth-of-type(5) {
+  position: absolute;
+  top: 55%;
+  right: 10%;
+}
+#gallery img:nth-of-type(6) {
+  position: absolute;
+  width: 20%;
+  top: 73%;
+  left: 0%;
+}
+#gallery img:nth-of-type(7) {
+  position: absolute;
+  width: 30%;
+  top: 89%;
+  left: 40%;
+  z-index: 1;
+}
+
+/* Golden B E A R S */
+
+
+
+
+
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 375px) { }
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) { }
