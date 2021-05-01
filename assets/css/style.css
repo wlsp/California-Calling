@@ -386,7 +386,7 @@ footer h5 span {
 }
 
 /* Media Queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (max-height: 896.98px) {
   h6,
   h3,
   p,
@@ -452,7 +452,7 @@ footer h5 span {
 
   /* Gallery */
 .gallery {
-  height: 210vh;
+  height: 205vh;
   display: inline-block;
   overflow:hidden;
 }
@@ -487,8 +487,9 @@ footer h5 span {
 .gallery .firstp {
   font-size: .7em;
   padding: 2% 0;
-  width: 100%;
+  width: 90%;
   line-height: 1.8em;
+  text-align: justify;
 }
 .gallery .secondp {
   margin: 10% auto;
@@ -505,10 +506,12 @@ footer h5 span {
   background-color: #000;
   color: #fff;
   display: block;
+  overflow: hidden;
 }
 #goldenBears aside:nth-of-type(1) {
   margin: 10% auto;
-  padding-top: 15%;
+  margin-left: 5%;
+  padding-top: 10%;
   width: 40%;
 }
 #goldenBears aside:nth-of-type(2) {
@@ -525,16 +528,16 @@ footer h5 span {
 #goldenBears img:nth-of-type(1) {
   position: absolute;
   z-index: 1;
-  width: 80vw;
-  top: 53%;
-  left: 0;
+  width: 100vw;
+  top: 58%;
+  left: -22%;
 }
 #goldenBears img:nth-of-type(2) {
   position: absolute;
-  width: 50vw;
+  width: 75vw;
   z-index: 5;
-  top: 77%;
-  right: 0;
+  top: 58%;
+  right: -30%;
 }
 
 /* Poppy  B E A R */
@@ -548,8 +551,8 @@ footer h5 span {
 .animationWrapper {
   text-align: right;
   position: relative;
-  top: 1%;
-  right: -11%;
+  top: -5%;
+  right: -12.5%;
   z-index: -1;
   width: 100%;
 }
@@ -642,11 +645,11 @@ footer .banderolle {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 998.98px) {
 
   /* HERO */
   #hero {
-    height: 70vh;
+    height: 90vh;
   }
 
   #hero aside img {
@@ -680,7 +683,7 @@ footer .banderolle {
 
   /* Gallery */
 .gallery {
-  height: 220vh;
+  height: 260vh;
   display: inline-block;
   overflow:hidden;
 }
@@ -755,7 +758,7 @@ footer .banderolle {
   position: absolute;
   z-index: 1;
   width: 55vw;
-  top: 65%;
+  top: 53%;
   left: 10%;
 }
 #goldenBears img:nth-of-type(2) {
@@ -768,7 +771,7 @@ footer .banderolle {
 
 /* Poppy  B E A R */
 #poppyBear {
-  height: 390vh;
+  height: 490vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -803,7 +806,7 @@ footer .banderolle {
   padding-bottom: 5%;
 }
 #poppyBear .rosebear {
-  top: 28%;
+  top: 24%;
   left: 0%;
   width: 100%;
 }
@@ -819,7 +822,7 @@ footer {
   display: flex;
   flex-wrap: column;
   background-color: #000;
-  height: 90vh;
+  height: 100vh;
   color: #fff;
   overflow: hidden;
 }
@@ -829,7 +832,7 @@ footer aside:nth-of-type(1) {
 
 footer p:nth-of-type(1) {
   width: 75%;
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-align: justify;
 }
 
@@ -842,7 +845,7 @@ footer li a img {
   width: 2.5%;
 }
 footer ul h6 {
-  font-size: .7em;
+  font-size: .9em;
   padding-top: 1%;
 }
 figure img {
@@ -865,6 +868,6 @@ footer .banderolle {
   height: 7vh;
   background-color: #fff;
   color: #000;
-  transform: translateY(790%) translateX(-5%) rotate(-25deg);
+  transform: translateY(755%) translateX(-3%) rotate(-32deg);
 }
 }
