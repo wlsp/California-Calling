@@ -470,7 +470,7 @@ footer h5 span {
 
   a {
     font-family: "Work Sans", sans-serif;
-    color: #727272;
+    color: #00000060;
     display: block;
     text-align: center;
   }
@@ -495,7 +495,7 @@ footer h5 span {
   .gallery article {
     margin: 10% auto;
     font-size: 1.5em;
-    width: 80%;
+    width: 88%;
   }
   .gallery .firstp {
     font-size: 0.7em;
