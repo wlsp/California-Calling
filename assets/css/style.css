@@ -106,7 +106,7 @@ h2 {
 /* Gallery */
 #gallery {
   text-align: center;
-  height: 230vh;
+  height: 260vh;
   position: relative;
 }
 #gallery article {
@@ -213,7 +213,7 @@ h2 {
 
 /* Poppy  B E A R */
 #poppyBear {
-  height: 200vh;
+  height: 240vh;
   overflow-x: hidden;
   display: flex;
   flex-wrap: wrap;
