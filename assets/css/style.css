@@ -114,7 +114,7 @@ h2 {
   position: relative;
 }
 
- .gallery a {
+.gallery a {
   display: none;
 }
 
@@ -466,12 +466,13 @@ footer h5 span {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   .gallery > a {
     font-family: "Work Sans", sans-serif;
     color: #00000060;
-    font-size: .7em;
+    font-size: 0.7em;
     font-weight: 800;
     display: block;
     text-align: center;
