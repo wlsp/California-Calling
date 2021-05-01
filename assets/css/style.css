@@ -499,7 +499,7 @@ footer h5 span {
   .gallery article {
     margin: 10% auto;
     font-size: 1.5em;
-    width: 77%;
+    width: 79%;
   }
   .gallery .firstp {
     font-size: 0.7em;
@@ -639,7 +639,7 @@ footer h5 span {
     padding-top: 1%;
   }
   figure img {
-    width: 45%;
+    width: 85%;
   }
   footer button {
     height: 3em;
@@ -658,6 +658,6 @@ footer h5 span {
     height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(860%) translateX(-12%) rotate(-33deg);
+    transform: translateY(890%) translateX(-10%) rotate(-30deg);
   }
 }
