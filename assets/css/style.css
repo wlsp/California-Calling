@@ -386,7 +386,7 @@ footer h5 span {
 
 /* Media Queries */
 @media only screen 
-and (min-device-width: 414px) 
+and (min-device-width: 410px) 
 and (max-device-height: 896px) 
 and (max-device-width: 578px)
 and (-webkit-device-pixel-ratio: 2) {
@@ -436,7 +436,7 @@ and (-webkit-device-pixel-ratio: 2) {
 
   /* Facts */
   #facts {
-    height: 60vh;
+    height: 75vh;
   }
   #facts h2,
   h2 {
@@ -455,7 +455,7 @@ and (-webkit-device-pixel-ratio: 2) {
 
   /* Gallery */
   .gallery {
-    height: 130vh;
+    height: 140vh;
     display: inline-block;
     overflow: hidden;
   }
@@ -532,20 +532,20 @@ and (-webkit-device-pixel-ratio: 2) {
     position: absolute;
     z-index: 1;
     width: 100vw;
-    top: 60%;
+    top: 61%;
     left: -22%;
   }
   #goldenBears img:nth-of-type(2) {
     position: absolute;
     width: 77vw;
     z-index: 5;
-    top: 60%;
+    top: 61%;
     right: -30%;
   }
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 150vh;
+    height: 151vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -576,16 +576,19 @@ and (-webkit-device-pixel-ratio: 2) {
     font-size: 1.3em;
     padding-bottom: 5%;
   }
-  #poppyBear .rosebear {
+
+  #poppyBear .pb3 {
     top: 35%;
     left: 0%;
     width: 100%;
   }
-  #poppyBear .pb3 {
-    top: 62%;
+
+  #poppyBear .rosebear {
+    top: 70%;
     left: 0%;
     width: 100%;
   }
+
 
   /* Footer */
   footer {
@@ -593,7 +596,7 @@ and (-webkit-device-pixel-ratio: 2) {
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 50vh;
+    height: 55vh;
     color: #fff;
     overflow: hidden;
   }
@@ -636,10 +639,10 @@ and (-webkit-device-pixel-ratio: 2) {
     position: absolute;
     font-size: 2em;
     width: 230%;
-    height: 5vh;
+    height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(495%) translateX(-5%) rotate(-29deg);
+    transform: translateY(595%) translateX(-10%) rotate(-35deg);
   }
 }
 
