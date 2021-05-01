@@ -114,7 +114,7 @@ h2 {
   position: relative;
 }
 
- a {
+ .gallery a {
   display: none;
 }
 
@@ -468,11 +468,14 @@ footer h5 span {
     white-space: nowrap;
   }
 
-  a {
+  .gallery > a {
     font-family: "Work Sans", sans-serif;
     color: #00000060;
+    font-size: .7em;
+    font-weight: 800;
     display: block;
     text-align: center;
+    margin-top: 15%;
   }
 
   .scrolling-wrapper > figure {
@@ -607,7 +610,7 @@ footer h5 span {
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 55vh;
+    height: 50vh;
     color: #fff;
     overflow: hidden;
   }
@@ -622,12 +625,12 @@ footer h5 span {
   }
 
   footer ul li {
-    padding-right: 1%;
-    display: inline;
+    padding-right: 0%;
+    display: inline-block;
     list-style-type: none;
   }
   footer li a img {
-    width: 2.5%;
+    width: 40%;
   }
   footer ul h6 {
     font-size: 0.7em;
@@ -653,6 +656,6 @@ footer h5 span {
     height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(595%) translateX(-10%) rotate(-35deg);
+    transform: translateY(600%) translateX(-5%) rotate(-27deg);
   }
 }
