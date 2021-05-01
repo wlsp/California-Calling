@@ -611,7 +611,7 @@ footer h5 span {
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 60vh;
+    height: 70vh;
     color: #fff;
     overflow: hidden;
   }
@@ -658,6 +658,6 @@ footer h5 span {
     height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(690%) translateX(-5%) translateY(65%) rotate(-28deg);
+    transform: translateY(860%) translateX(-12%) rotate(-33deg);
   }
 }
