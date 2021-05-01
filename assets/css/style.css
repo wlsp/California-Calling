@@ -115,7 +115,7 @@ h2 {
 }
 
  a {
-  color: #fff;
+  display: none;
 }
 
 .scrolling-wrapper {
