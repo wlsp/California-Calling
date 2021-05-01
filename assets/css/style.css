@@ -498,7 +498,7 @@ footer h5 span {
   .gallery article {
     margin: 10% auto;
     font-size: 1.5em;
-    width: 88%;
+    width: 77%;
   }
   .gallery .firstp {
     font-size: 0.7em;
@@ -518,7 +518,7 @@ footer h5 span {
   /* Golden B E A R S */
   #goldenBears {
     position: relative;
-    height: 115vh;
+    height: 125vh;
     background-color: #000;
     color: #fff;
     display: block;
@@ -545,20 +545,20 @@ footer h5 span {
     position: absolute;
     z-index: 1;
     width: 100vw;
-    top: 61%;
+    top: 65%;
     left: -22%;
   }
   #goldenBears img:nth-of-type(2) {
     position: absolute;
     width: 77vw;
     z-index: 5;
-    top: 61%;
+    top: 65%;
     right: -30%;
   }
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 155vh;
+    height: 165vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -591,14 +591,14 @@ footer h5 span {
   }
 
   #poppyBear .pb3 {
-    top: 35%;
+    top: 48%;
     left: 0%;
     width: 100%;
     z-index: 0;
   }
 
   #poppyBear .rosebear {
-    top: 72%;
+    top: 77%;
     left: 0%;
     width: 100%;
     z-index: 1;
@@ -610,15 +610,16 @@ footer h5 span {
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 50vh;
+    height: 60vh;
     color: #fff;
     overflow: hidden;
   }
   footer aside:nth-of-type(1) {
-    padding: 10% 0 0 10%;
+    padding: 20% 0 0 10%;
   }
 
   footer p:nth-of-type(1) {
+    margin-bottom: 5%;
     width: 85%;
     font-size: 1.2em;
     text-align: justify;
@@ -656,6 +657,6 @@ footer h5 span {
     height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(600%) translateX(-5%) rotate(-27deg);
+    transform: translateY(690%) translateX(-5%) translateY(65%) rotate(-28deg);
   }
 }
