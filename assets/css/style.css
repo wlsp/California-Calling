@@ -301,11 +301,13 @@ h2 {
   top: 50%;
   left: 40%;
   width: 50%;
+  z-index: 0;
 }
 #poppyBear .pb3 {
   top: 58%;
   left: 19%;
   width: 27%;
+  z-index: 1;
 }
 
 /* Footer */
@@ -545,7 +547,7 @@ and (-webkit-device-pixel-ratio: 2) {
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 151vh;
+    height: 155vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -581,12 +583,14 @@ and (-webkit-device-pixel-ratio: 2) {
     top: 35%;
     left: 0%;
     width: 100%;
+    z-index: 0;
   }
 
   #poppyBear .rosebear {
-    top: 70%;
+    top: 72%;
     left: 0%;
     width: 100%;
+    z-index: 1;
   }
 
 
