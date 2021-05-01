@@ -683,7 +683,7 @@ footer .banderolle {
 
   /* Gallery */
 .gallery {
-  height: 260vh;
+  height: 220vh;
   display: inline-block;
   overflow:hidden;
 }
@@ -759,19 +759,19 @@ footer .banderolle {
   z-index: 1;
   width: 55vw;
   top: 53%;
-  left: 10%;
+  left: 5%;
 }
 #goldenBears img:nth-of-type(2) {
   position: absolute;
-  width: 30vw;
-  z-index: 5;
-  top: 75%;
-  right: 15%;
+  width: 45vw;
+  z-index: 0;
+  top: 60%;
+  right: 5%;
 }
 
 /* Poppy  B E A R */
 #poppyBear {
-  height: 490vh;
+  height: 410vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
