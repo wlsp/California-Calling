@@ -69,15 +69,16 @@ button:hover {
 }
 #hero aside {
   display: flex;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 #hero aside img {
   width: 5%;
   margin-left: 10%;
+  margin-top: -3%;
 }
 #hero button {
   margin-left: 65%;
-  margin-top: -2%;
+  margin-top: -3%;
 }
 
 /* Facts */
@@ -85,7 +86,7 @@ button:hover {
   height: 200vh;
   background-color: #000;
   color: #fff;
-  padding: 20% 0 0 10%;
+  padding: 10% 0 0 10%;
 }
 #facts h2,
 h2 {
@@ -365,14 +366,14 @@ footer .banderolle {
   align-items: center;
   position: absolute;
   font-size: 5.4em;
-  width: 180%;
+  width: 280%;
   height: 13vh;
   background-color: #fff;
   color: #000;
-  transform: translateY(500%) translateX(0) rotate(45deg);
+  transform: translateY(1000%) translateX(-7%) rotate(45deg);
 }
 footer h5 {
-  animation: 4s linear 0s infinite alternate move;
+  animation: 3s linear 0s infinite alternate move;
   text-align: right;
 }
 footer h5 span {
@@ -386,7 +387,7 @@ footer h5 span {
     transform: translate3d(0%, 0%, 0px);
   }
   to {
-    transform: translate3d(-30%, 0%, 50px);
+    transform: translate3d(-20%, 0%, 30px);
   }
 }
 
