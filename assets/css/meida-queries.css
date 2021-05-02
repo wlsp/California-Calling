@@ -1,5 +1,5 @@
 /* Media Query for iPad 8 (10th G. 2020) */
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+@media all and (max-device-width: 1080px) and (device-height: 810px) {
   h6,
   h3,
   p,
@@ -11,8 +11,8 @@
 
   /* HERO */
   #hero {
-    height: 95vh;
-    background-color: #000;
+    height: 90vh;
+    background-color: red;
     color: #fff;
   }
   #hero svg:first-of-type {
@@ -66,7 +66,7 @@
 
   /* Gallery */
   .gallery {
-    height: 250vh;
+    height: 240vh;
     display: inline-block;
     overflow: hidden;
   }
@@ -149,7 +149,7 @@
   /* Golden B E A R S */
   #goldenBears {
     position: relative;
-    height: 155vh;
+    height: 180vh;
     background-color: #000;
     color: #fff;
     display: block;
@@ -174,20 +174,20 @@
   }
   #goldenBears img:nth-of-type(1) {
     position: absolute;
-    width: 50vw;
-    top: 60%;
-    left: 15%;
+    width: 70vw;
+    top: 50%;
+    left: 6%;
   }
   #goldenBears img:nth-of-type(2) {
     position: absolute;
-    width: 30vw;
-    top: 75%;
-    right: 15%;
+    width: 35vw;
+    top: 72%;
+    right: 5%;
   }
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 385vh;
+    height: 350vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -195,7 +195,7 @@
   .animationWrapper {
     text-align: right;
     position: relative;
-    top: -5%;
+    top: -4%;
     right: -11%;
     z-index: -1;
     width: 100%;
@@ -224,14 +224,14 @@
   }
 
   #poppyBear .pb3 {
-    top: 25%;
+    top: 30%;
     left: 0%;
     width: 100%;
     z-index: 0;
   }
 
   #poppyBear .rosebear {
-    top: 67%;
+    top: 70%;
     left: 0%;
     width: 100%;
     z-index: 1;
@@ -290,7 +290,7 @@
     height: 5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(975%) translateX(-13%) rotate(-42deg);
+    transform: translateY(995%) translateX(-12%)translateX(-3%) rotate(-45deg);
   }
 
   footer h5 {
@@ -308,7 +308,7 @@
       transform: translate3d(0%, 0%, 0px);
     }
     to {
-      transform: translate3d(-12%, 0%, 30px);
+      transform: translate3d(-14%, 0%, 30px);
     }
   }
 
@@ -400,6 +400,24 @@
     display: block;
     text-align: center;
     margin-top: 15%;
+  }
+
+  .arrow {
+    border: solid #00000060;
+    border-width: 0 .2em .2em 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: .3%;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 
   .gallery h2 {
@@ -593,7 +611,11 @@
 }
 
 /*  */
-@media screen and (max-width: 425px) {
+@media only screen  and (max-width: 425px) and  
+(-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2)  {
 
  
   h6,
@@ -681,6 +703,24 @@
     display: block;
     text-align: center;
     margin-top: 15%;
+  }
+
+  .arrow {
+    border: solid #00000060;
+    border-width: 0 .2em .2em 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: .3%;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 
   .scrolling-wrapper > figure {
@@ -955,6 +995,23 @@
     display: block;
     text-align: center;
     margin-top: 15%;
+  }
+   .arrow {
+    border: solid #00000060;
+    border-width: 0 .2em .2em 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: .3%;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 
   .scrolling-wrapper > figure {
