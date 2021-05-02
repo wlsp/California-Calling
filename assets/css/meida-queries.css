@@ -968,7 +968,7 @@
 
   /* Gallery */
   .gallery {
-    height: 155vh;
+    height: 160vh;
     display: inline-block;
     overflow: hidden;
   }
@@ -988,6 +988,7 @@
     display: block;
     text-align: center;
     margin-top: 15%;
+    margin-bottom: 5%;
   }
    .arrow {
     border: solid #00000060;
