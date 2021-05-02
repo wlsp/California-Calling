@@ -1,0 +1,1130 @@
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 1080px) {
+
+ 
+  h6,
+  h3,
+  p,
+  span:not(h1 > span, footer h5 span) {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+  }
+
+  /* HERO */
+  #hero {
+    height: 95vh;
+    background-color: #000;
+    color: #fff;
+  }
+  #hero svg:first-of-type {
+    display: none;
+  }
+  #hero article {
+    padding-top: 5%;
+    margin: 0;
+    line-height: 1.8em;
+  }
+  #hero h1 {
+    font-size: 5em;
+    line-height: 1em;
+    margin: 10%;
+  }
+  #hero aside {
+    display: flex;
+    margin-top: 10%;
+  }
+  #hero aside img {
+    width: 15%;
+    margin-left: 10%;
+  }
+  #hero button {
+    margin-left: 45%;
+    margin-top: 2%;
+    height: 4em;
+    width: 10em;
+    font-size: 1.5em;
+  }
+
+  /* Facts */
+  #facts {
+    height: 90vh;
+    padding-top: 10%;
+  }
+  #facts h2 {
+    font-size: 3em;
+    width: 95%;
+    line-height: 1em;
+    padding: 0 0 3% 0;
+  
+  }
+  #facts article {
+    height: 52vh;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Gallery */
+  .gallery {
+    height: 205vh;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .scrolling-wrapper {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery > a {
+    font-family: "Work Sans", sans-serif;
+    color: #00000060;
+    font-size: 1em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .scrolling-wrapper > figure {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .gallery__img {
+    display: inline-block;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+  .gallery h2 {
+    margin: 5% auto;
+    font-size: 8em;
+    width: 75%;
+  }
+
+  .gallery .firstp {
+    font-size: 2em;
+    padding: 0;
+    width: 90%;
+    line-height: 1.8em;
+    text-align: justify;
+    margin: 0 12%;
+  }
+
+  .gallery .secondp {
+    margin: 3% auto;
+    font-size: 1.8em;
+    width: 80%;
+    text-align: justify;
+    line-height: 1.8em;
+  }
+
+  /* Golden B E A R S */
+  #goldenBears {
+    position: relative;
+    height: 135vh;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    
+  }
+  #goldenBears aside:nth-of-type(1) {
+    margin: 5% auto;
+    margin-left: 5%;
+    padding-top: 10%;
+    width: 40%;
+  }
+  #goldenBears aside:nth-of-type(2) {
+    margin: -2% 0 0 5%;
+    width: 80%;
+  }
+  #goldenBears aside p {
+    font-family: LarishNeu;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+    text-align: justify;
+  }
+  #goldenBears img:nth-of-type(1) {
+    position: absolute;
+    width: 50vw;
+    top: 60%;
+    left: 15%;
+  }
+  #goldenBears img:nth-of-type(2) {
+    position: absolute;
+    width: 30vw;
+    top: 75%;
+    right: 15%;
+  }
+
+  /* Poppy  B E A R */
+  #poppyBear {
+    height: 305vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .animationWrapper {
+    text-align: right;
+    position: relative;
+    top: -5%;
+    right: -11%;
+    z-index: -1;
+    width: 100%;
+  }
+  .rotate {
+    width: 40%;
+  }
+
+  #poppyBear h2 {
+    margin-left: -12%;
+  }
+
+  #poppyBear aside:nth-of-type(1) {
+    margin-top: -35%;
+    width: 40%;
+  }
+  #poppyBear aside:nth-of-type(2) {
+    margin: 5% auto;
+    width: 90%;
+  }
+  #poppyBear aside p {
+    font-family: LarishNeu;
+    text-align: justify;
+    font-size: 1.8em;
+    padding-bottom: 5%;
+  }
+
+  #poppyBear .pb3 {
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #poppyBear .rosebear {
+    top: 67%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Footer */
+  footer {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    background-color: #000;
+    height: 80vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  footer aside:nth-of-type(1) {
+    padding: 10% 0 0 10%;
+  }
+
+  footer p:nth-of-type(1) {
+    margin-bottom: 8%;
+    width: 70%;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+
+  footer ul li {
+    padding-right: 0%;
+    display: inline-block;
+    list-style-type: none;
+  }
+  footer li a img {
+    width: 55%;
+  }
+  footer ul h6 {
+    font-size: 1.2em;
+    padding-top: 1%;
+  }
+  figure img {
+    width: 50%;
+  }
+  footer button {
+    height: 4em;
+    width: 10em;
+    font-size: 1.5em;
+  }
+
+  footer .banderolle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2em;
+    width: 230%;
+    height: 5vh;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(900%) translateX(-17%) rotate(-40deg);
+  }
+
+  footer h5 {
+    animation: 1.5s linear 0s infinite alternate move;
+    text-align: right;
+  }
+  footer h5 span {
+    font-family: LarishNeu;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    text-align: right;
+  }
+  @keyframes move {
+    from {
+      transform: translate3d(0%, 0%, 0px);
+    }
+    to {
+      transform: translate3d(-10%, 0%, 30px);
+    }
+  }
+
+}
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 780px) {
+  
+  h6,
+  h3,
+  p,
+  span:not(h1 > span, footer h5 span) {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  /* HERO */
+  #hero {
+    height: 70vh;
+    background-color: green;
+    color: #fff;
+  }
+  #hero svg:first-of-type {
+    display: none;
+  }
+  #hero article {
+    padding-top: 5%;
+    margin: 0;
+    line-height: 1.8em;
+  }
+  #hero h1 {
+    font-size: 4em;
+    line-height: 1em;
+    margin: 10%;
+  }
+  #hero aside {
+    display: flex;
+    margin-top: 8%;
+  }
+  #hero aside img {
+    width: 15%;
+    margin-left: 10%;
+  }
+  #hero button {
+    margin-left: 40%;
+    margin-top: -2%;
+    height: 4em;
+    width: 8em;
+    font-size: 1.3em;
+  }
+
+  /* Facts */
+  #facts {
+    height: 85vh;
+  }
+  #facts h2 {
+    font-size: 3em;
+    width: 95%;
+    line-height: 1em;
+    padding-top: 2%;
+  }
+  #facts article {
+    height: 45vh;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Gallery */
+  .gallery {
+    height: 190vh;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .scrolling-wrapper {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery > a {
+    font-family: "Work Sans", sans-serif;
+    color: #00000060;
+    font-size: 1em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .gallery h2 {
+    width: 50%;
+    font-size: 2em;
+    margin-left: 5%;
+  }
+
+  .scrolling-wrapper > figure {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 120%;
+    height: 100%;
+  }
+  .gallery__img {
+    display: inline-block;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+  .gallery article {
+    margin: 10% auto;
+    font-size: 2em;
+    width: 90%;
+  }
+  .gallery .firstp {
+    font-size: 0.8em;
+    padding: 2% 0;
+    width: 90%;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-left: 5%;
+  }
+  .gallery .secondp {
+    margin: 10% auto;
+    font-size: 1.6em;
+    width: 85%;
+    text-align: justify;
+    line-height: 1.8em;
+  }
+
+  /* Golden B E A R S */
+  #goldenBears {
+    position: relative;
+    height: 155vh;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+  }
+  #goldenBears aside:nth-of-type(1) {
+    margin: 10% auto;
+    margin-left: 5%;
+    padding-top: 10%;
+    width: 40%;
+  }
+  #goldenBears aside:nth-of-type(2) {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #goldenBears aside p {
+    font-family: LarishNeu;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+    text-align: justify;
+  }
+  #goldenBears img:nth-of-type(1) {
+    position: absolute;
+    z-index: 1;
+    width: 80vw;
+    top: 63%;
+    left: -15%;
+  }
+  #goldenBears img:nth-of-type(2) {
+    position: absolute;
+    width: 65vw;
+    z-index: 5;
+    top: 63%;
+    right: -15%;
+  }
+
+  /* Poppy  B E A R */
+  #poppyBear {
+    height: 275vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .animationWrapper {
+    text-align: right;
+    position: relative;
+    top: -3%;
+    right: -11%;
+    z-index: -1;
+    width: 100%;
+  }
+  .rotate {
+    width: 50%;
+  }
+
+  #poppyBear aside:nth-of-type(1) {
+    margin-top: -35%;
+    width: 40%;
+  }
+  #poppyBear aside:nth-of-type(2) {
+    margin: 5% auto;
+    width: 90%;
+  }
+  #poppyBear aside p {
+    font-family: LarishNeu;
+    text-align: justify;
+    font-size: 1.9em;
+    padding-bottom: 5%;
+  }
+
+  #poppyBear .pb3 {
+    top: 32%;
+    left: 0%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #poppyBear .rosebear {
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Footer */
+  footer {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    background-color: #000;
+    height: 70vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  footer aside:nth-of-type(1) {
+    padding: 10% 0 0 10%;
+  }
+
+  footer p:nth-of-type(1) {
+    margin-bottom: 8%;
+    width: 85%;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+
+  footer ul li {
+    padding-right: 0%;
+    display: inline-block;
+    list-style-type: none;
+  }
+  footer li a img {
+    width: 50%;
+  }
+  footer ul h6 {
+    font-size: 0.9em;
+    padding-top: 1%;
+  }
+  figure img {
+    width: 65%;
+  }
+  footer button {
+    height: 4em;
+    width: 8em;
+    font-size: 1.3em;
+  }
+
+  footer .banderolle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2em;
+    width: 230%;
+    height: 4.5vh;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(900%) translateX(-12%) rotate(-34deg);
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 425px) {
+
+ 
+  h6,
+  h3,
+  p,
+  span:not(h1 > span, footer h5 span) {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  /* HERO */
+  #hero {
+    height: 50vh;
+    background-color: #000;
+    color: #fff;
+  }
+  #hero svg:first-of-type {
+    display: none;
+  }
+  #hero article {
+    padding-top: 5%;
+    margin: 0;
+    line-height: 1.8em;
+  }
+  #hero h1 {
+    font-size: 2.8em;
+    line-height: 1em;
+    margin: 10%;
+  }
+  #hero aside {
+    display: flex;
+    margin-top: 8%;
+  }
+  #hero aside img {
+    width: 15%;
+    margin-left: 10%;
+  }
+  #hero button {
+    margin-left: 40%;
+    margin-top: -2%;
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+  }
+
+  /* Facts */
+  #facts {
+    height: 75vh;
+  }
+  #facts h2,
+  h2 {
+    font-size: 2.2em;
+    width: 95%;
+    line-height: 1em;
+    padding-top: 2%;
+  }
+  #facts article {
+    height: 31vh;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Gallery */
+  .gallery {
+    height: 140vh;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .scrolling-wrapper {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery > a {
+    font-family: "Work Sans", sans-serif;
+    color: #00000060;
+    font-size: 0.7em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .scrolling-wrapper > figure {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 120%;
+    height: 100%;
+  }
+  .gallery__img {
+    display: inline-block;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+  .gallery article {
+    margin: 10% auto;
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .gallery .firstp {
+    font-size: 0.7em;
+    padding: 2% 0;
+    width: 90%;
+    line-height: 1.8em;
+    text-align: justify;
+  }
+  .gallery .secondp {
+    margin: 10% auto;
+    font-size: 1.1em;
+    width: 85%;
+    text-align: justify;
+    line-height: 1.8em;
+  }
+
+  /* Golden B E A R S */
+  #goldenBears {
+    position: relative;
+    height: 125vh;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+  }
+  #goldenBears aside:nth-of-type(1) {
+    margin: 10% auto;
+    margin-left: 5%;
+    padding-top: 10%;
+    width: 40%;
+  }
+  #goldenBears aside:nth-of-type(2) {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #goldenBears aside p {
+    font-family: LarishNeu;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+    text-align: justify;
+  }
+  #goldenBears img:nth-of-type(1) {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    top: 65%;
+    left: -22%;
+  }
+  #goldenBears img:nth-of-type(2) {
+    position: absolute;
+    width: 77vw;
+    z-index: 5;
+    top: 65%;
+    right: -30%;
+  }
+
+  /* Poppy  B E A R */
+  #poppyBear {
+    height: 165vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .animationWrapper {
+    text-align: right;
+    position: relative;
+    top: -3%;
+    right: -11%;
+    z-index: -1;
+    width: 100%;
+  }
+  .rotate {
+    width: 50%;
+  }
+
+  #poppyBear aside:nth-of-type(1) {
+    margin-top: -35%;
+    width: 40%;
+  }
+  #poppyBear aside:nth-of-type(2) {
+    margin: 5% auto;
+    width: 90%;
+  }
+  #poppyBear aside p {
+    font-family: LarishNeu;
+    text-align: justify;
+    font-size: 1.3em;
+    padding-bottom: 5%;
+  }
+
+  #poppyBear .pb3 {
+    top: 37.5%;
+    left: 0%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #poppyBear .rosebear {
+    top: 73%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Footer */
+  footer {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    background-color: #000;
+    height: 70vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  footer aside:nth-of-type(1) {
+    padding: 20% 0 0 10%;
+  }
+
+  footer p:nth-of-type(1) {
+    margin-bottom: 8%;
+    width: 85%;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+
+  footer ul li {
+    padding-right: 0%;
+    display: inline-block;
+    list-style-type: none;
+  }
+  footer li a img {
+    width: 40%;
+  }
+  footer ul h6 {
+    font-size: 0.7em;
+    padding-top: 1%;
+  }
+  figure img {
+    width: 85%;
+  }
+  footer button {
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+  }
+
+  footer .banderolle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2em;
+    width: 230%;
+    height: 4.5vh;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(900%) translateX(-12%) rotate(-34deg);
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 375px) {
+
+ 
+  h6,
+  h3,
+  p,
+  span:not(h1 > span, footer h5 span) {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  /* HERO */
+  #hero {
+    height: 50vh;
+    background-color: #000;
+    color: #fff;
+  }
+  #hero svg:first-of-type {
+    display: none;
+  }
+  #hero article {
+    padding-top: 5%;
+    margin: 0;
+    line-height: 1.8em;
+  }
+  #hero h1 {
+    font-size: 2.8em;
+    line-height: 1em;
+    margin: 10%;
+  }
+  #hero aside {
+    display: flex;
+    margin-top: 8%;
+  }
+  #hero aside img {
+    width: 15%;
+    margin-left: 10%;
+  }
+  #hero button {
+    margin-left: 40%;
+    margin-top: -2%;
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+  }
+
+  /* Facts */
+  #facts {
+    height: 65vh;
+  }
+  #facts h2,
+  h2 {
+    font-size: 2.2em;
+    width: 95%;
+    line-height: 1em;
+    padding-top: 2%;
+  }
+  #facts article {
+    height: 31vh;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Gallery */
+  .gallery {
+    height: 125vh;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .scrolling-wrapper {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery > a {
+    font-family: "Work Sans", sans-serif;
+    color: #00000060;
+    font-size: 0.7em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .scrolling-wrapper > figure {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 120%;
+    height: 100%;
+  }
+  .gallery__img {
+    display: inline-block;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+  .gallery article {
+    margin: 10% auto;
+    font-size: 1.5em;
+    width: 90%;
+  }
+
+  .gallery h2 {
+    width: 80%;
+  }
+  .gallery .firstp {
+    font-size: 0.7em;
+    padding: 2% 0;
+    width: 90%;
+    line-height: 1.8em;
+    text-align: justify;
+  }
+  .gallery .secondp {
+    margin: 10% auto;
+    font-size: 1.1em;
+    width: 85%;
+    text-align: justify;
+    line-height: 1.8em;
+  }
+
+  /* Golden B E A R S */
+  #goldenBears {
+    position: relative;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+  }
+  #goldenBears aside:nth-of-type(1) {
+    margin: 10% auto;
+    margin-left: 5%;
+    padding-top: 10%;
+    width: 40%;
+  }
+  #goldenBears aside:nth-of-type(2) {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #goldenBears aside p {
+    font-family: LarishNeu;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+    text-align: justify;
+  }
+  #goldenBears img:nth-of-type(1) {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    top: 65%;
+    left: -22%;
+  }
+  #goldenBears img:nth-of-type(2) {
+    position: absolute;
+    width: 77vw;
+    z-index: 5;
+    top: 65%;
+    right: -30%;
+  }
+
+  /* Poppy  B E A R */
+  #poppyBear {
+    height: 145vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .animationWrapper {
+    text-align: right;
+    position: relative;
+    top: -3%;
+    right: -11%;
+    z-index: -1;
+    width: 100%;
+  }
+  .rotate {
+    width: 50%;
+  }
+
+  #poppyBear aside:nth-of-type(1) {
+    margin-top: -35%;
+    width: 40%;
+  }
+  #poppyBear aside:nth-of-type(2) {
+    margin: 5% auto;
+    width: 90%;
+  }
+  #poppyBear aside p {
+    font-family: LarishNeu;
+    text-align: justify;
+    font-size: 1.3em;
+    padding-bottom: 5%;
+  }
+
+  #poppyBear .pb3 {
+    top: 37.5%;
+    left: 0%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #poppyBear .rosebear {
+    top: 73%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Footer */
+  footer {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    background-color: #000;
+    height: 70vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  footer aside:nth-of-type(1) {
+    padding: 20% 0 0 10%;
+  }
+
+  footer p:nth-of-type(1) {
+    margin-bottom: 8%;
+    width: 85%;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+
+  footer ul li {
+    padding-right: 0%;
+    display: inline-block;
+    list-style-type: none;
+  }
+  footer li a img {
+    width: 40%;
+  }
+  footer ul h6 {
+    font-size: 0.7em;
+    padding-top: 1%;
+  }
+  figure img {
+    width: 85%;
+  }
+  footer button {
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+  }
+
+  footer .banderolle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2em;
+    width: 230%;
+    height: 4.5vh;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(900%) translateX(-12%) rotate(-34deg);
+  }
+}
+  
