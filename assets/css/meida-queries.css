@@ -1,7 +1,5 @@
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 1080px) {
-
- 
+/* Media Query for iPad 8 (10th G. 2020) */
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   h6,
   h3,
   p,
@@ -48,18 +46,18 @@
 
   /* Facts */
   #facts {
-    height: 90vh;
+    height: 100vh;
     padding-top: 10%;
   }
   #facts h2 {
-    font-size: 3em;
+    font-size: 3.3em;
     width: 95%;
     line-height: 1em;
     padding: 0 0 3% 0;
   
   }
   #facts article {
-    height: 52vh;
+    height: 50vh;
     background-image: url(../img/map.svg);
     background-position: top right;
     background-repeat: no-repeat;
@@ -68,7 +66,7 @@
 
   /* Gallery */
   .gallery {
-    height: 205vh;
+    height: 250vh;
     display: inline-block;
     overflow: hidden;
   }
@@ -83,11 +81,29 @@
   .gallery > a {
     font-family: "Work Sans", sans-serif;
     color: #00000060;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 800;
     display: block;
     text-align: center;
     margin-top: 15%;
+  }
+
+  .arrow {
+    border: solid #00000060;
+    border-width: 0 .2em .2em 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: .3%;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 
   .scrolling-wrapper > figure {
@@ -108,9 +124,9 @@
     margin: 0;
   }
   .gallery h2 {
-    margin: 5% auto;
-    font-size: 8em;
-    width: 75%;
+    margin: 5% 10%;
+    font-size: 7.5em;
+    width: 90%;
   }
 
   .gallery .firstp {
@@ -123,7 +139,7 @@
   }
 
   .gallery .secondp {
-    margin: 3% auto;
+    margin: 10% auto;
     font-size: 1.8em;
     width: 80%;
     text-align: justify;
@@ -133,7 +149,7 @@
   /* Golden B E A R S */
   #goldenBears {
     position: relative;
-    height: 135vh;
+    height: 155vh;
     background-color: #000;
     color: #fff;
     display: block;
@@ -171,7 +187,7 @@
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 305vh;
+    height: 385vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -227,7 +243,7 @@
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 80vh;
+    height: 90vh;
     color: #fff;
     overflow: hidden;
   }
@@ -274,11 +290,11 @@
     height: 5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(900%) translateX(-17%) rotate(-40deg);
+    transform: translateY(975%) translateX(-13%) rotate(-42deg);
   }
 
   footer h5 {
-    animation: 1.5s linear 0s infinite alternate move;
+    animation: 2s linear 0s infinite alternate move;
     text-align: right;
   }
   footer h5 span {
@@ -292,12 +308,12 @@
       transform: translate3d(0%, 0%, 0px);
     }
     to {
-      transform: translate3d(-10%, 0%, 30px);
+      transform: translate3d(-12%, 0%, 30px);
     }
   }
 
 }
-/* On screens that are 992px wide or less */
+
 @media screen and (max-width: 780px) {
   
   h6,
@@ -312,7 +328,7 @@
   /* HERO */
   #hero {
     height: 70vh;
-    background-color: green;
+    background-color: #000;
     color: #fff;
   }
   #hero svg:first-of-type {
@@ -451,7 +467,7 @@
   }
   #goldenBears aside p {
     font-family: LarishNeu;
-    font-size: 1.8em;
+    font-size: 1.9em;
     line-height: 1.3em;
     padding-bottom: 5%;
     text-align: justify;
@@ -576,7 +592,7 @@
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
+/*  */
 @media screen and (max-width: 425px) {
 
  
@@ -850,8 +866,8 @@
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 375px) {
+/* */
+@media screen and (max-device-width: 380px) and (max-device-height: 667px) {
 
  
   h6,
@@ -865,7 +881,7 @@
 
   /* HERO */
   #hero {
-    height: 50vh;
+    height: 60vh;
     background-color: #000;
     color: #fff;
   }
@@ -900,7 +916,7 @@
 
   /* Facts */
   #facts {
-    height: 65vh;
+    height: 85vh;
   }
   #facts h2,
   h2 {
@@ -919,7 +935,7 @@
 
   /* Gallery */
   .gallery {
-    height: 125vh;
+    height: 165vh;
     display: inline-block;
     overflow: hidden;
   }
@@ -985,7 +1001,7 @@
   /* Golden B E A R S */
   #goldenBears {
     position: relative;
-    height: 100vh;
+    height: 135vh;
     background-color: #000;
     color: #fff;
     display: block;
@@ -1025,7 +1041,7 @@
 
   /* Poppy  B E A R */
   #poppyBear {
-    height: 145vh;
+    height: 185vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -1077,7 +1093,7 @@
     display: flex;
     flex-wrap: column;
     background-color: #000;
-    height: 70vh;
+    height: 80vh;
     color: #fff;
     overflow: hidden;
   }
@@ -1105,7 +1121,7 @@
     padding-top: 1%;
   }
   figure img {
-    width: 85%;
+    width: 70%;
   }
   footer button {
     height: 3em;
@@ -1124,7 +1140,6 @@
     height: 4.5vh;
     background-color: #fff;
     color: #000;
-    transform: translateY(900%) translateX(-12%) rotate(-34deg);
+    transform: translateY(900%) translateX(-5%) rotate(-38deg);
   }
 }
-  
