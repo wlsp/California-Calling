@@ -366,11 +366,11 @@ footer .banderolle {
   align-items: center;
   position: absolute;
   font-size: 5.4em;
-  width: 280%;
+  white-space: nowrap;
   height: 13vh;
   background-color: #fff;
   color: #000;
-  transform: translateY(1000%) translateX(-7%) rotate(45deg);
+  transform: translateY(300%) translateX(-7%) rotate(40deg);
 }
 footer h5 {
   animation: 3s linear 0s infinite alternate move;

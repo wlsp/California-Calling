@@ -603,7 +603,7 @@
     align-items: center;
     position: absolute;
     font-size: 2em;
-    width: 230%;
+    white-space: nowrap;
     height: 4.5vh;
     background-color: #fff;
     color: #000;
@@ -893,7 +893,7 @@
     align-items: center;
     position: absolute;
     font-size: 2em;
-    width: 230%;
+    white-space: nowrap;
     height: 4.5vh;
     background-color: #fff;
     color: #000;
@@ -1187,7 +1187,7 @@
     align-items: center;
     position: absolute;
     font-size: 2em;
-    width: 230%;
+    white-space: nowrap;
     height: 4.5vh;
     background-color: #fff;
     color: #000;
